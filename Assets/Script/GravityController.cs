@@ -31,7 +31,7 @@ public class GravityController : MonoBehaviour
         else
         {
             //キーの入力を検知してベクトルを設定
-            vector.x = Input.GetAxis("Horizotnal");
+            vector.x = Input.GetAxis("Horizontal");
             vector.z = Input.GetAxis("Vertical");
 
             //高い方向の判定はキーのzとする
